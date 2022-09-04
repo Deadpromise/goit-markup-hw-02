@@ -72,7 +72,7 @@ body {
 
 	color: var(--secondary-color);
 }
-.button {
+.basic-button {
 	cursor: pointer;
 }
 
