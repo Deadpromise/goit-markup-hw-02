@@ -2,6 +2,7 @@
     --main-color: #757575;
     --accent-color: #2196F3;
     --header-color: #212121;
+    --active-button: #188CE8;
     --secondary-logo-color: #000000;
     --secondary-color: #FFFFFF;
     --main-background-color: #FFFFFF;
@@ -83,6 +84,9 @@ body {
     
     color: var(--secondary-color);
     background-color: var(--accent-color)  
+}
+.hero-button:active {
+background-color: var(--active-button);
 }
 /* Qualities */
 .quality-header {
