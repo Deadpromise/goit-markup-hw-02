@@ -8,6 +8,7 @@
     --main-background-color: #FFFFFF;
     --secondary-background-color: #2F303A;
     --footer-links: rgba(255, 255, 255, 0.6);
+    --filter-bg: #F5F4FA;
 }
 /* global rules */
 body {
@@ -76,6 +77,7 @@ body {
 }
 
 .hero-button {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -85,7 +87,7 @@ body {
     color: var(--secondary-color);
     background-color: var(--accent-color)  
 }
-.hero-button:active {
+.hero-button:hover; .hero-button:focus {
 background-color: var(--active-button);
 }
 /* Qualities */
@@ -141,4 +143,21 @@ background-color: var(--active-button);
 }
 .foot-link:hover, .foot-link:focus {
     color: var(--accent-color);
+}
+/* Portfolio */
+/* Filter */
+.filter-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: inherit;
+    
+    color: var(--header-color);
+    background-color:var(--filter-bg);
+}
+.filter-button:hover, .filter-button:focus {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
 }
